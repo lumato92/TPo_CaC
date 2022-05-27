@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e63f160475.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./styles/style.css" media="all">
+    
+        <link rel="stylesheet" href="./styles/button.css">
+        
+        <title>Proyecto-Codo</title>
+    </head>
+        <body class="main-body" >
+            <header class="main-header" id="nav-bar">
+                <div class="brand"><b></b></div>
+                    <nav class="main-nav-bar">
+                        <input type="checkbox"  id="menuToggle">
+                        <label for="menuToggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+                        <ul class="nav-opt">
+                            <li class="nav-opt-box"> <i class="fa-solid fa-house"></i> <a class="nav-link"href="#home"> Home</a></li>
+
+                            
+                            <li class="nav-opt-box"> <a class="nav-link"href="#about-me">Sobre Mi</a></li>
+                            <li class="nav-opt-box"> <a class="nav-link"href="#projects-box">Proyectos</a></li>
+                            <li class="nav-opt-box"> <a class="nav-link"href="#location-box">Contacto</a></li>
+                        </ul>    
+                    </nav>
+                    <!-- NAV BAR RESPONSIVE -->
+                    <nav class="responsive-nav-bar">
+                        <input type="checkbox"  id="menuToggle">
+                        <label for="menuToggle" class="menu-icon"><i class="fa-solid fa-bars" ></i></label>
+                        <ul class="responsive-nav-opt">
+                            <li class="nav-opt-box"> <a href="#home"> <i class="fa-solid fa-house"></i></a></li>
+                            <li class="nav-opt-box"> <a href="#about-me"><i class="fa-solid fa-user-pen"></i></a></li>
+                            <li class="nav-opt-box"> <a href="#projects-box"><i class="fa-solid fa-briefcase"></i></a></li>
+                            <li class="nav-opt-box"> <a href="#location-box"><i class="fa-solid fa-location-dot"></i></a></li>
+                            <li class="nav-opt-box"> <a href="#contact-box"><i class="fa-solid fa-envelope"></i></a></li>
+                        </ul>    
+                    </nav>
+            </header>
+            
+
+            <div class="main-content" id="home">    
+                <div class="main-title">
+                    <div class="title">
+                        <h1 class="title-name">Lucas Torrado</h1>
+                        <p>Desarrollador Web</p>
+                    </div>
+
+                    <div class="title-image">
+                        <div>
+                            <img src="./assets/image-7.png" alt="persona_programando" sizes="" srcset="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="about-me">
+                    <h2 class="content-title" id="about-me2">Un poco sobre mi..</h2>      
+                        <div class="content">
+                        
+                            <div class="box">
+                                <p>Hola! Me llamo Lucas Torrado soy un Desarrollador Web, apasionado por las nuevas tecnologias. Amante de la programacion y el desarrollo ,siempre con ganas de seguir aprendiendo</p>
+                                <div class="image-box"></div>
+                            </div>
+                        
+                        </div>
+                </div>
+                
+            
+                    <!-- PROYECTOS -->
+                <div class="project-area">
+                    <h2 class="projects-title" id="projects-box">Algunos Proyectos..</h2>  
+                    <section class="main-page-services">
+                            <article class="main-page-services-article">
+                                <div class="card" id="card-crono">
+                                    <h3 class="card-title">Cronometro JS</h3>
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-stopwatch img-solid"></i>
+                                        <p class="card-description">Cronometro desarrollado con JS,con diversas funcionalidades </p>
+                                    </div>
+                                </div>
+                                <button class="btn-service btn"><a href="https://lumato92.github.io/Stop_Watch/" target="_blank" style="color:#f1f1f1;">More</a></button>
+                            </article>
+                            <article class="main-page-services-article">
+                                <div class="card" id="card-calc">
+                                    <h3 class="card-title">Calculadora JS</h3>
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-calculator img-solid"></i>
+                                        <p class="card-description">Calculadora Basica utilizando HTML, CSS y JS</p>
+                                    </div>
+                                </div>
+                                <button class="btn-service btn"><a href="https://lumato92.github.io/calc_js/" target="_blank" style="color:#f1f1f1;">More</a></button>
+                            </article>
+
+
+                            <article class="main-page-services-article">
+
+                                <div class="card" id="card-calc">
+                                    <h3 class="card-title">RGB GAME</h3>
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-dice img-solid"></i>
+                                        <p class="card-description">Juego Rgb consiste en generar un valor aleatorio de COLOR y el jugador debe seleccionar la opcion correcta</p>
+                                    </div>
+                                </div>
+                                
+                                <button class="btn-service btn"><a href="https://lumato92.github.io/rgb_game/" target="_blank" style="color:#f1f1f1;">More</a></button>
+                            </article>
+                            <article class="main-page-services-article">
+                                <div class="card" id="card-crypto">
+                                    <h3 class="card-title">Price Watcher</h3>
+                                    <div class="card-content">
+                                        <i class="fa-solid fa-bitcoin-sign img-solid"></i>
+                                        <p class="card-description">Programa de lectura de precio de cripto via Binance API con GUI utilizando Python</p>
+                                    </div>
+                                </div>
+                                <button class="btn-service btn"><a href="https://github.com/lumato92/Price_Watcher_Binance" target="_blank" style="color:#f1f1f1;">More</a></button>
+                            </article>
+
+                    </section>
+                </div>
+
+
+
+
+                <!-- CONTACTO  -->
+                
+                <div id="location-box">
+
+                    <div class="location-page">
+                        <div class="location-info">
+                            <h3 class="location-title">Veni a Conocernos</h3>
+                            <p class="location-page-item">Av. Siempre viva 1234 <br> Buenos Aires <br> Argentina</p>
+                        </div>
+                        <div class="location-map">
+                            <iframe class="location-page-item-mobile"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.066850016401!2d-58.3815704!3d-34.6037389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1653609030992!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe class="location-page-item-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26277.16811654637!2d-58.42875321569815!3d-34.58782245079033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1650752134410!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                
+                    
+                    <div id="contact-box"></div>
+
+                        <div class="form-main-container">
+                            <h2>Sigamos en Contacto</h2>
+                            <form class="form-container" id="contact-form" method="get">
+                                <input type="text" class="form-item" placeholder="Como te llamas??" id="form-name" >
+                                <input type="email" class="form-item" placeholder="Correo Electronico" name="" id="form-mail" >
+                                <textarea name="" class="form-item" id="form-txt" placeholder="Escribi tu mensaje" cols="30" rows="10" ></textarea>
+                                <input type="submit"  class="btn-service btn" value="Enviar" id="form-send">
+                                
+
+                            </form>
+                        </div>
+                </div>
+            
+
+            
+
+            </div>
+        
+            <footer class="main-footer">
+                <ul class="footer-list">
+                    <li class="footer-item"><i class="fa-brands fa-linkedin"></i></li>
+                    <li class="footer-item"><i class="fa-brands fa-github"></i></li>
+                    <li class="footer-item"><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </footer>
+    </body>
+
+
+
+    <script src="./script/index.js"></script>
+
+</html>
+
+

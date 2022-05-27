@@ -1,0 +1,133 @@
+/* 
+
+.btn-service {
+  border-radius: 30px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  padding: 1em;
+  width: 150px;
+  transition: all 0,0s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.btn-service{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-service:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 16px;
+  right: 20px;
+  transition: 0,5s;
+}
+
+.btn-service:hover{
+  padding-right: 2em;
+  padding-left :0.2em;
+  background-color: aquamarine;
+  color: black;
+}
+
+.btn-service:hover:after {
+  opacity: 1;
+  right: 10px;
+} */
+
+
+
+.btn-service {
+  padding: 0.8em 1.8em;
+  border: 2px solid #f19a41;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #f19a41;
+ }
+ 
+ .btn-service::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #f19a41;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .btn-service:hover::before {
+  width: 105%;
+ }
+ 
+ .btn-service:hover {
+  color: #111;
+ }
+ 
+
+ /* .form-btn {
+  --color: #f19a41;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+ }
+ 
+ .form-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+ 
+ .form-btn:hover {
+  color: #10164b;
+ }
+ 
+ .form-btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ .form-btn:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ .form-btn:active:before {
+  background-color: #f19a41;
+  transition: background-color 0s;
+ } */
